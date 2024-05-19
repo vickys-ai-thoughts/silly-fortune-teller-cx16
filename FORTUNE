@@ -1,0 +1,24 @@
+10 CLS
+20 PRINT "Welcome to the Silly Fortune Teller!"
+30 PRINT "------------------------------------"
+40 PRINT
+50 INPUT "What is your name"; U$
+60 INPUT "What is your favorite color"; C$
+70 INPUT "What is your favorite animal"; A$
+80 PRINT
+90 PRINT "Hmm... Let me think...";
+100 FOR I = 1 TO 5
+110    PRINT ".";
+120    FOR T = 1 TO 8000: NEXT T
+130 NEXT I
+140 PRINT
+150 PRINT "Got it!"
+160 PRINT
+170 PRINT U$; ", in the near future you will have an unexpected encounter ";
+171 PRINT "with a "; C$; " "; A$; "!"
+180 PRINT "This encounter will bring you great joy and possibly a new friend!"
+190 PRINT "Remember, always keep a "; C$; " scarf handy, just in case!"
+200 PRINT
+210 PRINT "Thanks for playing! May your future be full of fun and silliness!"
+220 PRINT "Press any key to exit."
+230 GET A$: IF A$ = "" THEN 230
